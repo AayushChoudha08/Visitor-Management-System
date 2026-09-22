@@ -1,0 +1,273 @@
+[
+  {
+    "id": "INV-2026-000001",
+    "eventTitle": "Architecture Design Review",
+    "visitType": "Business Guest",
+    "office": "Mumbai Goregaon",
+    "date": "2026-09-21",
+    "startTime": "08:00",
+    "endTime": "09:30",
+    "hostId": "EMP-001",
+    "guestIds": [
+      "VIS-001"
+    ],
+    "note": "Bring NDA and laptop. Check-in at 4th floor security.",
+    "status": "APPROVED",
+    "createdAt": "2026-09-21T07:30:00.000Z"
+  },
+  {
+    "id": "INV-2026-000002",
+    "eventTitle": "Quarterly Financial Audit",
+    "visitType": "PwC Network Firm",
+    "office": "Mumbai Goregaon",
+    "date": "2026-09-21",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "hostId": "EMP-006",
+    "guestIds": [
+      "VIS-005"
+    ],
+    "note": "Statutory audit documents review with CFO.",
+    "status": "APPROVED",
+    "createdAt": "2026-09-21T08:00:00.000Z"
+  },
+  {
+    "id": "INV-2026-000003",
+    "eventTitle": "Senior Frontend Architect Interview",
+    "visitType": "Interview",
+    "office": "Mumbai Goregaon",
+    "date": "2026-09-21",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "hostId": "EMP-002",
+    "guestIds": [
+      "VIS-002"
+    ],
+    "note": "Round 3 In-person technical presentation.",
+    "status": "REJECTED",
+    "createdAt": "2026-09-21T08:30:00.000Z",
+    "rejectedAt": "2026-09-22T13:30:17.750Z",
+    "rejectedBy": "Rajesh Patel",
+    "rejectionReason": "Workplace capacity reached or unauthorized visit window."
+  },
+  {
+    "id": "INV-2026-000004",
+    "eventTitle": "Cloud Infrastructure Migration Sync",
+    "visitType": "Vendor",
+    "office": "Bangalore",
+    "date": "2026-09-21",
+    "startTime": "11:00",
+    "endTime": "12:30",
+    "hostId": "EMP-003",
+    "guestIds": [
+      "VIS-006"
+    ],
+    "note": "AWS direct connect circuit testing at server room.",
+    "status": "APPROVED",
+    "createdAt": "2026-09-21T09:00:00.000Z"
+  },
+  {
+    "id": "INV-2026-000005",
+    "eventTitle": "Workplace Compliance Inspection",
+    "visitType": "Government Official",
+    "office": "Delhi",
+    "date": "2026-09-21",
+    "startTime": "15:00",
+    "endTime": "17:00",
+    "hostId": "EMP-004",
+    "guestIds": [
+      "VIS-004"
+    ],
+    "note": "Fire safety and labor standard certification inspection.",
+    "status": "APPROVED",
+    "createdAt": "2026-09-21T09:15:00.000Z",
+    "approvedAt": "2026-09-21T18:18:41.795Z",
+    "approvedBy": "Rajesh Patel"
+  },
+  {
+    "id": "INV-2026-000006",
+    "eventTitle": "Legal Advisory Counsel",
+    "visitType": "Business Guest",
+    "office": "Hyderabad",
+    "date": "2026-09-21",
+    "startTime": "10:30",
+    "endTime": "11:45",
+    "hostId": "EMP-005",
+    "guestIds": [
+      "VIS-008"
+    ],
+    "note": "IP portfolio discussion.",
+    "status": "APPROVED",
+    "createdAt": "2026-09-21T09:45:00.000Z"
+  },
+  {
+    "id": "INV-2026-000007",
+    "eventTitle": "Hardware Facilities Audit",
+    "visitType": "Vendor",
+    "office": "Pune",
+    "date": "2026-09-21",
+    "startTime": "09:00",
+    "endTime": "11:00",
+    "hostId": "EMP-007",
+    "guestIds": [
+      "VIS-003"
+    ],
+    "note": "UPS and server backup battery check.",
+    "status": "APPROVED",
+    "createdAt": "2026-09-21T08:15:00.000Z"
+  },
+  {
+    "id": "INV-2026-000008",
+    "eventTitle": "Global Partnership Discussion",
+    "visitType": "Business Guest",
+    "office": "Mumbai Goregaon",
+    "date": "2026-09-22",
+    "startTime": "11:00",
+    "endTime": "13:00",
+    "hostId": "EMP-001",
+    "guestIds": [
+      "VIS-010"
+    ],
+    "note": "Executive briefing on APAC enterprise expansion.",
+    "status": "APPROVED",
+    "createdAt": "2026-09-20T14:00:00.000Z"
+  },
+  {
+    "id": "INV-2026-000009",
+    "eventTitle": "Unscheduled Vendor Solicitation",
+    "visitType": "Vendor",
+    "office": "Bangalore",
+    "date": "2026-09-21",
+    "startTime": "12:00",
+    "endTime": "13:00",
+    "hostId": "EMP-008",
+    "guestIds": [
+      "VIS-007"
+    ],
+    "note": "Cold solicitation without prior appointment.",
+    "status": "REJECTED",
+    "createdAt": "2026-09-21T07:00:00.000Z"
+  },
+  {
+    "id": "INV-2026-000010",
+    "eventTitle": "Executive Strategy Briefing",
+    "visitType": "Business Guest",
+    "office": "Mumbai Goregaon",
+    "date": "2026-09-21",
+    "startTime": "16:30",
+    "endTime": "18:00",
+    "hostId": "EMP-009",
+    "guestIds": [
+      "VIS-009"
+    ],
+    "note": "Office lease expansion options.",
+    "status": "PRE-APPROVED",
+    "createdAt": "2026-09-21T10:00:00.000Z"
+  },
+  {
+    "id": "INV-2026-000011",
+    "eventTitle": "Client Architecture Review",
+    "visitType": "Business Guest",
+    "office": "Mumbai Goregaon",
+    "date": "2026-09-21",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "hostId": "EMP-001",
+    "guestIds": [
+      "VIS-010"
+    ],
+    "note": "Please arrive 10 minutes before the scheduled time and check in at security.",
+    "status": "APPROVED",
+    "createdAt": "2026-09-21T17:52:46.335Z",
+    "approvedAt": "2026-09-21T17:54:17.658Z",
+    "approvedBy": "Rahul Sharma"
+  },
+  {
+    "id": "INV-2026-000012",
+    "eventTitle": "Client Architecture Review",
+    "visitType": "Business Guest",
+    "office": "Mumbai Goregaon",
+    "date": "2026-09-21",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "hostId": "EMP-001",
+    "guestIds": [
+      "VIS-001"
+    ],
+    "note": "Please arrive 10 minutes before the scheduled time and check in at security.",
+    "status": "APPROVED",
+    "createdAt": "2026-09-21T18:20:23.880Z",
+    "approvedAt": "2026-09-21T18:20:42.013Z",
+    "approvedBy": "Rahul Sharma"
+  },
+  {
+    "id": "INV-2026-000013",
+    "eventTitle": "Client Architecture Review",
+    "visitType": "Business Guest",
+    "office": "Mumbai Goregaon",
+    "date": "2026-09-22",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "hostId": "EMP-001",
+    "guestIds": [
+      "VIS-011"
+    ],
+    "note": "Please arrive 10 minutes before the scheduled time and check in at security.",
+    "status": "APPROVED",
+    "createdAt": "2026-09-21T19:02:57.131Z",
+    "approvedAt": "2026-09-21T19:03:03.920Z",
+    "approvedBy": "Rahul Sharma"
+  },
+  {
+    "id": "INV-2026-000014",
+    "eventTitle": "VIP Executive Briefing & Campus Tour",
+    "visitType": "Business Guest",
+    "office": "Mumbai Goregaon",
+    "date": "2026-09-22",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "hostId": "EMP-001",
+    "guestIds": [
+      "VIS-011"
+    ],
+    "note": "VIP Pre-approved guest. Expedite front desk security verification.",
+    "status": "PRE-APPROVED",
+    "createdAt": "2026-09-22T13:28:34.904Z"
+  },
+  {
+    "id": "INV-2026-000015",
+    "eventTitle": "Interview",
+    "visitType": "Interview",
+    "office": "Bangalore",
+    "date": "2026-09-22",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "hostId": "EMP-008",
+    "guestIds": [
+      "VIS-012"
+    ],
+    "note": "Please arrive 10 minutes before the scheduled time and check in at security.",
+    "status": "APPROVED",
+    "createdAt": "2026-09-22T13:48:47.060Z",
+    "approvedAt": "2026-09-22T13:53:27.709Z",
+    "approvedBy": "Rajesh Patel"
+  },
+  {
+    "id": "INV-2026-000016",
+    "eventTitle": "Client Architecture Review",
+    "visitType": "Business Guest",
+    "office": "Mumbai Goregaon",
+    "date": "2026-09-22",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "hostId": "EMP-001",
+    "guestIds": [
+      "VIS-012"
+    ],
+    "note": "Please arrive 10 minutes before the scheduled time and check in at security.",
+    "status": "APPROVED",
+    "createdAt": "2026-09-22T14:25:00.189Z",
+    "approvedAt": "2026-09-22T14:25:07.126Z",
+    "approvedBy": "Rahul Sharma"
+  }
+]

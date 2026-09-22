@@ -1,0 +1,462 @@
+[
+  {
+    "id": "LOG-001",
+    "action": "INVITATION_CREATED",
+    "invitationId": "INV-2026-000001",
+    "visitorId": "VIS-001",
+    "performedBy": "Rahul Sharma (Host)",
+    "role": "Employee",
+    "timestamp": "2026-09-21T07:30:00.000Z",
+    "details": "Created invitation for Aman Singh (TCS)"
+  },
+  {
+    "id": "LOG-002",
+    "action": "INVITATION_APPROVED",
+    "invitationId": "INV-2026-000001",
+    "visitorId": "VIS-001",
+    "performedBy": "Security Operations",
+    "role": "Admin",
+    "timestamp": "2026-09-21T07:45:00.000Z",
+    "details": "Approved invitation INV-2026-000001 for Aman Singh"
+  },
+  {
+    "id": "LOG-003",
+    "action": "INVITATION_REJECTED",
+    "invitationId": "INV-2026-000009",
+    "visitorId": "VIS-007",
+    "performedBy": "Ananya Iyer (Host)",
+    "role": "Employee",
+    "timestamp": "2026-09-21T07:50:00.000Z",
+    "details": "Rejected cold vendor solicitation from Meenakshi Sundaram"
+  },
+  {
+    "id": "LOG-004",
+    "action": "INVITATION_CREATED",
+    "invitationId": "INV-2026-000002",
+    "visitorId": "VIS-005",
+    "performedBy": "Sneha Kapoor (Host)",
+    "role": "Employee",
+    "timestamp": "2026-09-21T08:00:00.000Z",
+    "details": "Created statutory audit invitation for Deepa Nair (PwC)"
+  },
+  {
+    "id": "LOG-005",
+    "action": "INVITATION_APPROVED",
+    "invitationId": "INV-2026-000002",
+    "visitorId": "VIS-005",
+    "performedBy": "Rajesh Patel",
+    "role": "Admin",
+    "timestamp": "2026-09-21T08:05:00.000Z",
+    "details": "Pre-cleared PwC audit team pass"
+  },
+  {
+    "id": "LOG-006",
+    "action": "VISITOR_CHECKED_IN",
+    "invitationId": "INV-2026-000001",
+    "visitorId": "VIS-001",
+    "performedBy": "Front Desk Security",
+    "role": "Front Desk",
+    "timestamp": "2026-09-21T08:05:00.000Z",
+    "details": "Aman Singh verified Aadhaar and checked in at Mumbai Goregaon"
+  },
+  {
+    "id": "LOG-007",
+    "action": "INVITATION_CREATED",
+    "invitationId": "INV-2026-000007",
+    "visitorId": "VIS-003",
+    "performedBy": "Vikram Malhotra (Host)",
+    "role": "Employee",
+    "timestamp": "2026-09-21T08:15:00.000Z",
+    "details": "Created maintenance invitation for Amit Bansal (Wipro)"
+  },
+  {
+    "id": "LOG-008",
+    "action": "INVITATION_APPROVED",
+    "invitationId": "INV-2026-000007",
+    "visitorId": "VIS-003",
+    "performedBy": "Facilities Helpdesk",
+    "role": "Admin",
+    "timestamp": "2026-09-21T08:20:00.000Z",
+    "details": "Approved hardware facilities audit pass"
+  },
+  {
+    "id": "LOG-009",
+    "action": "VISITOR_CHECKED_IN",
+    "invitationId": "INV-2026-000007",
+    "visitorId": "VIS-003",
+    "performedBy": "Front Desk Pune",
+    "role": "Front Desk",
+    "timestamp": "2026-09-21T09:05:00.000Z",
+    "details": "Amit Bansal checked in for Pune datacenter inspection"
+  },
+  {
+    "id": "LOG-010",
+    "action": "INVITATION_CREATED",
+    "invitationId": "INV-2026-000004",
+    "visitorId": "VIS-006",
+    "performedBy": "Ankit Kumar (Host)",
+    "role": "Employee",
+    "timestamp": "2026-09-21T09:10:00.000Z",
+    "details": "Created cloud migration pass for Karan Sethi (Amazon AWS)"
+  },
+  {
+    "id": "LOG-011",
+    "action": "INVITATION_APPROVED",
+    "invitationId": "INV-2026-000004",
+    "visitorId": "VIS-006",
+    "performedBy": "IT SecOps",
+    "role": "Admin",
+    "timestamp": "2026-09-21T09:15:00.000Z",
+    "details": "Approved Bangalore server room access"
+  },
+  {
+    "id": "LOG-012",
+    "action": "PRE_APPROVAL_CREATED",
+    "invitationId": "INV-2026-000010",
+    "visitorId": "VIS-009",
+    "performedBy": "Rajesh Patel (Host)",
+    "role": "Employee",
+    "timestamp": "2026-09-21T10:00:00.000Z",
+    "details": "Pre-approved VIP guest Ritu Saxena (EY) with direct QR e-pass"
+  },
+  {
+    "id": "LOG-013",
+    "action": "VISITOR_CHECKED_IN",
+    "invitationId": "INV-2026-000002",
+    "visitorId": "VIS-005",
+    "performedBy": "Front Desk Security",
+    "role": "Front Desk",
+    "timestamp": "2026-09-21T10:05:00.000Z",
+    "details": "Deepa Nair scanned QR pass and checked in at Mumbai Goregaon"
+  },
+  {
+    "id": "LOG-014",
+    "action": "VISITOR_CHECKED_IN",
+    "invitationId": "INV-2026-000006",
+    "visitorId": "VIS-008",
+    "performedBy": "Front Desk Hyderabad",
+    "role": "Front Desk",
+    "timestamp": "2026-09-21T10:32:00.000Z",
+    "details": "Alok Trivedi verified DL and checked in"
+  },
+  {
+    "id": "LOG-015",
+    "action": "VISITOR_CHECKED_OUT",
+    "invitationId": "INV-2026-000007",
+    "visitorId": "VIS-003",
+    "performedBy": "Front Desk Pune",
+    "role": "Front Desk",
+    "timestamp": "2026-09-21T10:45:00.000Z",
+    "details": "Amit Bansal checked out. Visit duration: 1h 40m"
+  },
+  {
+    "id": "LOG-016",
+    "action": "VISITOR_CHECKED_OUT",
+    "invitationId": "INV-2026-000006",
+    "visitorId": "VIS-008",
+    "performedBy": "Front Desk Hyderabad",
+    "role": "Front Desk",
+    "timestamp": "2026-09-21T11:40:00.000Z",
+    "details": "Alok Trivedi checked out. Visit duration: 1h 8m"
+  },
+  {
+    "id": "LOG-017",
+    "action": "INVITATION_CREATED",
+    "invitationId": "INV-2026-000011",
+    "visitorId": "VIS-010",
+    "performedBy": "Rahul Sharma",
+    "role": "Employee",
+    "timestamp": "2026-09-21T17:52:46.346Z",
+    "details": "Created invitation INV-2026-000011 for \"Client Architecture Review\" (1 guests)"
+  },
+  {
+    "id": "LOG-018",
+    "action": "INVITATION_APPROVED",
+    "invitationId": "INV-2026-000011",
+    "visitorId": "VIS-010",
+    "performedBy": "Rahul Sharma",
+    "role": "Employee",
+    "timestamp": "2026-09-21T17:54:17.663Z",
+    "details": "Approved invitation INV-2026-000011 for Client Architecture Review"
+  },
+  {
+    "id": "LOG-019",
+    "action": "VISITOR_CHECKED_OUT",
+    "invitationId": "INV-2026-000001",
+    "visitorId": "VIS-001",
+    "performedBy": "Rajesh Patel",
+    "role": "Admin",
+    "timestamp": "2026-09-21T18:18:24.923Z",
+    "details": "Aman Singh checked out. Total visit duration: 10h 13m"
+  },
+  {
+    "id": "LOG-020",
+    "action": "INVITATION_APPROVED",
+    "invitationId": "INV-2026-000005",
+    "visitorId": "VIS-004",
+    "performedBy": "Rajesh Patel",
+    "role": "Admin",
+    "timestamp": "2026-09-21T18:18:41.802Z",
+    "details": "Approved invitation INV-2026-000005 for Workplace Compliance Inspection"
+  },
+  {
+    "id": "LOG-021",
+    "action": "INVITATION_CREATED",
+    "invitationId": "INV-2026-000012",
+    "visitorId": "VIS-001",
+    "performedBy": "Rahul Sharma",
+    "role": "Employee",
+    "timestamp": "2026-09-21T18:20:23.902Z",
+    "details": "Created invitation INV-2026-000012 for \"Client Architecture Review\" (1 guests)"
+  },
+  {
+    "id": "LOG-022",
+    "action": "INVITATION_APPROVED",
+    "invitationId": "INV-2026-000012",
+    "visitorId": "VIS-001",
+    "performedBy": "Rahul Sharma",
+    "role": "Employee",
+    "timestamp": "2026-09-21T18:20:42.019Z",
+    "details": "Approved invitation INV-2026-000012 for Client Architecture Review"
+  },
+  {
+    "id": "LOG-023",
+    "action": "VISITOR_CHECKED_IN",
+    "invitationId": "INV-2026-000012",
+    "visitorId": "VIS-001",
+    "performedBy": "Rajesh Patel",
+    "role": "Admin",
+    "timestamp": "2026-09-21T18:25:16.139Z",
+    "details": "Aman Singh verified and checked in at Mumbai Goregaon"
+  },
+  {
+    "id": "LOG-024",
+    "action": "VISITOR_CHECKED_OUT",
+    "invitationId": "INV-2026-000012",
+    "visitorId": "VIS-001",
+    "performedBy": "Rajesh Patel",
+    "role": "Admin",
+    "timestamp": "2026-09-21T18:25:27.458Z",
+    "details": "Aman Singh checked out. Total visit duration: 0m"
+  },
+  {
+    "id": "LOG-025",
+    "action": "VISITOR_CHECKED_IN",
+    "invitationId": "INV-2026-000011",
+    "visitorId": "VIS-010",
+    "performedBy": "Security Reception Desk",
+    "role": "Front Desk",
+    "timestamp": "2026-09-21T18:58:10.450Z",
+    "details": "Suresh Nair verified and checked in at Mumbai Goregaon"
+  },
+  {
+    "id": "LOG-026",
+    "action": "VISITOR_REGISTERED",
+    "invitationId": null,
+    "visitorId": "VIS-011",
+    "performedBy": "Front Desk",
+    "role": "Front Desk",
+    "timestamp": "2026-09-21T19:01:35.384Z",
+    "details": "Registered visitor Aayush (MOVEINSYNC)"
+  },
+  {
+    "id": "LOG-027",
+    "action": "INVITATION_CREATED",
+    "invitationId": "INV-2026-000013",
+    "visitorId": "VIS-011",
+    "performedBy": "Rahul Sharma",
+    "role": "Employee",
+    "timestamp": "2026-09-21T19:02:57.142Z",
+    "details": "Created invitation INV-2026-000013 for \"Client Architecture Review\" (1 guests)"
+  },
+  {
+    "id": "LOG-028",
+    "action": "INVITATION_APPROVED",
+    "invitationId": "INV-2026-000013",
+    "visitorId": "VIS-011",
+    "performedBy": "Rahul Sharma",
+    "role": "Employee",
+    "timestamp": "2026-09-21T19:03:03.928Z",
+    "details": "Approved invitation INV-2026-000013 for Client Architecture Review"
+  },
+  {
+    "id": "LOG-029",
+    "action": "VISITOR_CHECKED_IN",
+    "invitationId": "INV-2026-000013",
+    "visitorId": "VIS-011",
+    "performedBy": "Rajesh Patel",
+    "role": "Admin",
+    "timestamp": "2026-09-21T19:04:54.782Z",
+    "details": "Aayush verified and checked in at Mumbai Goregaon"
+  },
+  {
+    "id": "LOG-030",
+    "action": "VISITOR_CHECKED_OUT",
+    "invitationId": "INV-2026-000002",
+    "visitorId": "VIS-005",
+    "performedBy": "Rajesh Patel",
+    "role": "Admin",
+    "timestamp": "2026-09-22T06:47:00.157Z",
+    "details": "Deepa Nair checked out. Total visit duration: 20h 42m"
+  },
+  {
+    "id": "LOG-031",
+    "action": "VISITOR_CHECKED_OUT",
+    "invitationId": "INV-2026-000011",
+    "visitorId": "VIS-010",
+    "performedBy": "Rajesh Patel",
+    "role": "Admin",
+    "timestamp": "2026-09-22T06:49:27.506Z",
+    "details": "Suresh Nair checked out. Total visit duration: 11h 51m"
+  },
+  {
+    "id": "LOG-032",
+    "action": "VISITOR_CHECKED_OUT",
+    "invitationId": "INV-2026-000013",
+    "visitorId": "VIS-011",
+    "performedBy": "Rajesh Patel",
+    "role": "Admin",
+    "timestamp": "2026-09-22T06:49:34.180Z",
+    "details": "Aayush checked out. Total visit duration: 11h 44m"
+  },
+  {
+    "id": "LOG-033",
+    "action": "PRE_APPROVAL_CREATED",
+    "invitationId": "INV-2026-000014",
+    "visitorId": "VIS-011",
+    "performedBy": "Rahul Sharma",
+    "role": "Employee",
+    "timestamp": "2026-09-22T13:28:34.935Z",
+    "details": "Created invitation INV-2026-000014 for \"VIP Executive Briefing & Campus Tour\" (1 guests)"
+  },
+  {
+    "id": "LOG-034",
+    "action": "VISITOR_CHECKED_IN",
+    "invitationId": "INV-2026-000014",
+    "visitorId": "VIS-011",
+    "performedBy": "Front Desk Security",
+    "role": "Front Desk",
+    "timestamp": "2026-09-22T13:29:34.670Z",
+    "details": "Aayush verified and checked in at Mumbai Goregaon"
+  },
+  {
+    "id": "LOG-035",
+    "action": "VISITOR_CHECKED_OUT",
+    "invitationId": "INV-2026-000014",
+    "visitorId": "VIS-011",
+    "performedBy": "Front Desk Security",
+    "role": "Front Desk",
+    "timestamp": "2026-09-22T13:29:45.320Z",
+    "details": "Aayush checked out. Total visit duration: 0m"
+  },
+  {
+    "id": "LOG-036",
+    "action": "INVITATION_REJECTED",
+    "invitationId": "INV-2026-000003",
+    "visitorId": "VIS-002",
+    "performedBy": "Rajesh Patel",
+    "role": "Admin",
+    "timestamp": "2026-09-22T13:30:17.775Z",
+    "details": "Rejected invitation INV-2026-000003. Reason: Workplace capacity reached or unauthorized visit window."
+  },
+  {
+    "id": "LOG-037",
+    "action": "VISITOR_CHECKED_OUT",
+    "invitationId": "INV-2026-000002",
+    "visitorId": "VIS-005",
+    "performedBy": "Rajesh Patel",
+    "role": "Admin",
+    "timestamp": "2026-09-22T13:47:17.606Z",
+    "details": "Deepa Nair checked out. Total visit duration: 27h 42m"
+  },
+  {
+    "id": "LOG-038",
+    "action": "VISITOR_REGISTERED",
+    "invitationId": null,
+    "visitorId": "VIS-012",
+    "performedBy": "Front Desk",
+    "role": "Front Desk",
+    "timestamp": "2026-09-22T13:47:49.172Z",
+    "details": "Registered visitor Arshiya (MOVEINSYNC)"
+  },
+  {
+    "id": "LOG-039",
+    "action": "INVITATION_CREATED",
+    "invitationId": "INV-2026-000015",
+    "visitorId": "VIS-012",
+    "performedBy": "Rajesh Patel",
+    "role": "Admin",
+    "timestamp": "2026-09-22T13:48:47.090Z",
+    "details": "Created invitation INV-2026-000015 for \"Interview\" (1 guests)"
+  },
+  {
+    "id": "LOG-040",
+    "action": "INVITATION_APPROVED",
+    "invitationId": "INV-2026-000015",
+    "visitorId": "VIS-012",
+    "performedBy": "Rajesh Patel",
+    "role": "Admin",
+    "timestamp": "2026-09-22T13:53:27.741Z",
+    "details": "Approved invitation INV-2026-000015 for Interview"
+  },
+  {
+    "id": "LOG-041",
+    "action": "VISITOR_CHECKED_IN",
+    "invitationId": "INV-2026-000015",
+    "visitorId": "VIS-012",
+    "performedBy": "Rajesh Patel",
+    "role": "Admin",
+    "timestamp": "2026-09-22T13:55:23.975Z",
+    "details": "Arshiya verified and checked in at Bangalore"
+  },
+  {
+    "id": "LOG-042",
+    "action": "VISITOR_CHECKED_OUT",
+    "invitationId": "INV-2026-000015",
+    "visitorId": "VIS-012",
+    "performedBy": "Front Desk Security",
+    "role": "Front Desk",
+    "timestamp": "2026-09-22T14:13:46.978Z",
+    "details": "Arshiya checked out. Total visit duration: 18m"
+  },
+  {
+    "id": "LOG-043",
+    "action": "INVITATION_CREATED",
+    "invitationId": "INV-2026-000016",
+    "visitorId": "VIS-012",
+    "performedBy": "Rahul Sharma",
+    "role": "Employee",
+    "timestamp": "2026-09-22T14:25:00.220Z",
+    "details": "Created invitation INV-2026-000016 for \"Client Architecture Review\" (1 guests)"
+  },
+  {
+    "id": "LOG-044",
+    "action": "INVITATION_APPROVED",
+    "invitationId": "INV-2026-000016",
+    "visitorId": "VIS-012",
+    "performedBy": "Rahul Sharma",
+    "role": "Employee",
+    "timestamp": "2026-09-22T14:25:07.138Z",
+    "details": "Approved invitation INV-2026-000016 for Client Architecture Review"
+  },
+  {
+    "id": "LOG-045",
+    "action": "VISITOR_CHECKED_IN",
+    "invitationId": "INV-2026-000016",
+    "visitorId": "VIS-012",
+    "performedBy": "Security Reception Desk",
+    "role": "Front Desk",
+    "timestamp": "2026-09-22T14:25:28.596Z",
+    "details": "Arshiya verified and checked in at Mumbai Goregaon"
+  },
+  {
+    "id": "LOG-046",
+    "action": "VISITOR_CHECKED_OUT",
+    "invitationId": "INV-2026-000016",
+    "visitorId": "VIS-012",
+    "performedBy": "Security Reception Desk",
+    "role": "Front Desk",
+    "timestamp": "2026-09-22T14:26:10.442Z",
+    "details": "Arshiya checked out. Total visit duration: 0m"
+  }
+]

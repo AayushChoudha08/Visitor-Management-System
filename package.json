@@ -1,0 +1,26 @@
+{
+  "name": "visitor-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack workplace Visitor Management System (VMS)",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "start": "npm run start --prefix server",
+    "test": "npm run test --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "keywords": [
+    "visitor-management",
+    "vms",
+    "react",
+    "express",
+    "full-stack"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "ISC"
+}

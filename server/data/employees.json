@@ -1,0 +1,102 @@
+[
+  {
+    "id": "EMP-001",
+    "name": "Rahul Sharma",
+    "email": "rahul.sharma@innovatecorp.in",
+    "phone": "+91 98201 44552",
+    "department": "Engineering",
+    "designation": "VP of Engineering",
+    "office": "Mumbai Goregaon",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "EMP-002",
+    "name": "Priya Mehta",
+    "email": "priya.mehta@innovatecorp.in",
+    "phone": "+91 98112 33441",
+    "department": "Human Resources",
+    "designation": "Head of Talent Acquisition",
+    "office": "Mumbai Goregaon",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "EMP-003",
+    "name": "Ankit Kumar",
+    "email": "ankit.kumar@innovatecorp.in",
+    "phone": "+91 97115 66778",
+    "department": "Product Management",
+    "designation": "Lead Product Manager",
+    "office": "Bangalore",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "EMP-004",
+    "name": "Neha Verma",
+    "email": "neha.verma@innovatecorp.in",
+    "phone": "+91 99203 11223",
+    "department": "Operations",
+    "designation": "Operations Director",
+    "office": "Delhi",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "EMP-005",
+    "name": "Rohit Gupta",
+    "email": "rohit.gupta@innovatecorp.in",
+    "phone": "+91 98450 77889",
+    "department": "Legal & Compliance",
+    "designation": "Senior Legal Counsel",
+    "office": "Hyderabad",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "EMP-006",
+    "name": "Sneha Kapoor",
+    "email": "sneha.kapoor@innovatecorp.in",
+    "phone": "+91 98210 99001",
+    "department": "Finance",
+    "designation": "Chief Financial Officer",
+    "office": "Mumbai Goregaon",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "EMP-007",
+    "name": "Vikram Malhotra",
+    "email": "vikram.malhotra@innovatecorp.in",
+    "phone": "+91 98101 22334",
+    "department": "Information Security",
+    "designation": "CISO",
+    "office": "Pune",
+    "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "EMP-008",
+    "name": "Ananya Iyer",
+    "email": "ananya.iyer@innovatecorp.in",
+    "phone": "+91 99401 55667",
+    "department": "Procurement",
+    "designation": "Vendor Management Lead",
+    "office": "Bangalore",
+    "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "EMP-009",
+    "name": "Rajesh Patel",
+    "email": "rajesh.patel@innovatecorp.in",
+    "phone": "+91 98250 88990",
+    "department": "Facilities & Workplace",
+    "designation": "Head of Corporate Workplace",
+    "office": "Mumbai Goregaon",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "EMP-010",
+    "name": "Pooja Nair",
+    "email": "pooja.nair@innovatecorp.in",
+    "phone": "+91 97400 11224",
+    "department": "Marketing",
+    "designation": "Brand & Comms Manager",
+    "office": "Delhi",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+  }
+]

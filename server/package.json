@@ -1,0 +1,28 @@
+{
+  "name": "vms-server",
+  "version": "1.0.0",
+  "description": "Express REST API backend for Visitor Management System",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/vms.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.2.2"
+  },
+  "keywords": [
+    "express",
+    "vms",
+    "rest-api"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "ISC"
+}
