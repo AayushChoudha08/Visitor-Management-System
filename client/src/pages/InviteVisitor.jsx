@@ -24,6 +24,14 @@ import {
   Info
 } from 'lucide-react';
 
+const getLocalDateString = () => {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+};
+
 export const InviteVisitor = () => {
   const navigate = useNavigate();
   const toast = useToast();
@@ -35,7 +43,7 @@ export const InviteVisitor = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [createdPassData, setCreatedPassData] = useState(null);
 
-  const todayStr = new Date().toISOString().split('T')[0];
+  const todayStr = getLocalDateString();
 
   const [formData, setFormData] = useState({
     eventTitle: 'Client Architecture Review',

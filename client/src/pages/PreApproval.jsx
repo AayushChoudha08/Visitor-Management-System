@@ -13,6 +13,14 @@ import { useToast } from '../context/ToastContext';
 import { useAuth } from '../context/AuthContext';
 import { Sparkles, QrCode, ShieldCheck, Check } from 'lucide-react';
 
+const getLocalDateString = () => {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+};
+
 export const PreApproval = () => {
   const toast = useToast();
   const { currentRole, currentUser } = useAuth();
@@ -23,7 +31,7 @@ export const PreApproval = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [passData, setPassData] = useState(null);
 
-  const todayStr = new Date().toISOString().split('T')[0];
+  const todayStr = getLocalDateString();
 
   const [formData, setFormData] = useState({
     eventTitle: 'VIP Executive Briefing & Campus Tour',

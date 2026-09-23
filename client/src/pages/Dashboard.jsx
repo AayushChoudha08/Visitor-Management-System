@@ -68,7 +68,23 @@ export const Dashboard = () => {
 
   useEffect(() => {
     fetchDashboardData();
-  }, []);
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        fetchDashboardData();
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    window.addEventListener('focus', fetchDashboardData);
+    const refreshTimer = window.setInterval(fetchDashboardData, 15000);
+
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+      window.removeEventListener('focus', fetchDashboardData);
+      window.clearInterval(refreshTimer);
+    };
+  }, [currentRole]);
 
   const handleCheckIn = async (visit) => {
     try {
